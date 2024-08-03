@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding:25px;
+   text-align:center;
+}
+ul{
+list-style-type: none;
+}
+
+ul li{
+    display:inline;
+    margin-right: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+
+    background-image: url('bg\ img\ \(2\).jpg'); 
+     background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    opacity: 0.9;     
+  }
+
+
+.head{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 50%;
+    margin-bottom: 10%;
+}
+
+
+.text h1 {
+    text-align: start;
+}
+.text p{
+    text-align: start;
+    line-height: 25px;
+}
+.my-button {
+    background-color: #4CAF50;
+    border: none; 
+    color: white; 
+    padding: 10px 20px;  
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 20px;
+    margin-top: 30px; 
+    font-family: 'Poppins', sans-serif;
+    margin-right: 75%;
+
+  }
+  .box button{
+    border: none;
+    
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color:black;
+   
+
+  }
+  .box a{
+    color: white;
+    text-decoration: none;
+  }
+  h1{
+    font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  }
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a {
+    color: darkgray;
+    text-decoration:underline; 
+    padding: 10px; 
+    display: inline-block; 
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    margin:10px;
+}
+.box img {
+   width: 200px;
+   height:200px;
+
+    margin-bottom: 10px;
+}
+.box p {
+    margin-bottom: 10px;
+}
+.box:hover{
+    background-color:gray;
+    color:white;
+}
+.main1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column size as needed */
+    gap: 20px;
+    padding: 20px;
+}
+ 
+
+  .my-button:hover {
+    background-color:darkgrey; /* Darker green background on hover */
+  }
+.one{
+    margin-top: 50px;
+    
+  }
+  footer{
+    margin:10px;
+background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+    bottom: 0;
+    width: 100%;
+}
+.copyright{
+    margin:20px;
+}
